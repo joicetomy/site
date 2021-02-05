@@ -7,8 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .skill {
+            margin-bottom: 0px !important;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -47,7 +66,9 @@
             <article id="about">
                 <h2 class="major">About</h2>
                 <span class="image main"><img src="images/abouts.jpg" alt="" /></span>
-                <p>blah blah blah blah</p>
+                <p>Myself Joice Tomy, B.Tech Graduate in Information Technology from Toc H Institute of Science and Technology.</p>
+                <p>Currently I'm doing my internship at VAAS Intelligent Technology Services as a Full-Stack Developer. I’m interested in developing websites both front-end and back-end.
+                </p>
             </article>
 
             <!-- Work -->
@@ -94,10 +115,31 @@
             <!-- Skills -->
             <article id="skills">
                 <h2 class="major">Skills</h2>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
 
+
+                <div class="row">
+                    <div class="column">
+                        <p class="skill">HTML</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:100%; margin-bottom:30px;">100%</div>
+                        <p class="skill">JAVASCRIPT</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:90%; margin-bottom:30px;">90%</div>
+                        <p class="skill">BOOTSTRAP</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:95%; margin-bottom:30px;">95%</div>
+
+                        <p class="skill">PYTHON</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:75%; margin-bottom:30px;">75%</div>
+                    </div>
+                    <div class="column">
+                        <p class="skill">CSS</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:95%; margin-bottom:30px;">95%</div>
+                        <p class="skill">PHP</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:80%; margin-bottom:30px;">80%</div>
+                        <p class="skill">LARAVEL</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:85%; margin-bottom:30px;">85%</div>
+                        <p class="skill">REACT.JS</p>
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:75%; margin-bottom:30px;">75%</div>
+                    </div>
+                </div>
             </article>
 
             <!-- Contact -->
